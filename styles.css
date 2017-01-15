@@ -1,0 +1,140 @@
+
+html {
+  font-family: Helvetica Neue, arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+header {
+  background-color: #2EC195;
+  padding: 20px 0;
+  overflow:hidden;
+
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+  width: 50%;
+  float: left;
+}
+
+nav {
+  font-size: 20px;
+  text-align: right;
+  width: 50%;
+  float: right;
+
+}
+
+.meowcome {
+  overflow: hidden;
+  background-color: #215498;
+  display: inline-block;
+  margin: auto;
+  color: white;
+
+}
+.meowcome img {
+  position: relative;
+  float: left;
+  max-width: 70%;
+}
+h2 {
+  font-size: 30px;
+  padding: 20px;
+  position: static;
+  text-align: center;
+}
+
+.cats {
+  background-color: #F0D776;
+  padding: 30px 15px;
+  font-size: 18px;
+}
+
+.products {
+
+  display: inline-block;
+  /*margin: auto;*/
+  font-size: 18px;
+  padding: 30px 20px;
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+ul.pictures {
+  overflow: hidden;
+}
+
+
+li {
+max-width: 32%;
+float: left;
+border: 2px solid;
+margin: 2px;
+}
+
+.products img {
+  max-width: 100%;
+}
+
+#about {
+  background-color: #26547C;
+  padding: 10px 20px;
+}
+
+.headings {
+  overflow: hidden;
+
+}
+
+h3 {
+  display: block;
+    font-size: 1.17em
+}
+
+.fun {
+  color: #F02DC6;
+  font-size: 25px;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.values {
+  color: #F02DC6;
+  font-size: 25px;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+.meow {
+  color: #F02DC6;
+  font-size: 25px;
+  float: left;
+  width: 33%;
+  text-align: center;
+
+}
+
+#about p {
+  color: white;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #06D6A0;
+  text-align: right;
+  font-size: 20px;
+  padding: 15px;
+}
